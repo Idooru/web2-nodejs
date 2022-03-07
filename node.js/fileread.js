@@ -1,5 +1,5 @@
-var readFile = require("fs").readFile;
-var path = require("path");
+const { readFile } = require("fs");
+const path = require("path");
 
 readFile(path.join(__dirname, "sample.txt"), "utf8", (err, data) => {
     if (err) throw err;
