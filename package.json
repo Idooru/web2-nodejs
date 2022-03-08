@@ -1,0 +1,23 @@
+{
+    "name": "web2-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shere1765/web2-nodejs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shere1765/web2-nodejs/issues"
+    },
+    "homepage": "https://github.com/shere1765/web2-nodejs#readme",
+    "dependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
